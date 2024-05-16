@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cuenta Nueva</title>
+<style>
+	body 
+	{
+   		background-color: #f2f2f2; 
+    	color: #000; 
+	}
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+ 		<a href="index.html" ><h4>Página Principal</h4></a>
+    	</nav>
+	</header>
+	<main>
+		<fieldset>
+			<legend><h2>Registro de Usuario</h2></legend>
+			<form action="cuenta-nueva.html" method="POST">
+			        Código del empleado:
+			        <br>
+			        <input type="text" name="nombre" id="nombre" size="30" maxlength="50" placeholder="Escriba su código único" autocomplete="off" required>
+			        <br><br>
+			        Nombre de usuario:
+			        <br>
+			        <input type="text" name="nombre" id="nombre" size="30" maxlength="50" placeholder="Escriba su nombre de usuario" autocomplete="off" required>
+			        <br><br>
+			        Contraseña:
+			        <br>
+			        <input type="password" maxlength="50" required>
+			        <br><br>
+			        Confirme la contraseña:
+			        <br>
+			        <input type="password" maxlength="50" required>
+			        <br>	
+			        Correo electrónico:
+			    	<br>
+			    	<input type="text" name="Email" id="email" size="30" maxlength="50"placeholder="Escriba su email" autocomplete="off" required>
+			    	<br><br>        
+    	</fieldset>
+    	<br>
+		<button type="submit">Crear cuenta<img src="imagenes/enviar.png" alt="crear" width="75"></button> 
+		<button type="reset">Cancelar<img src="imagenes/cancelar.png" alt="borrado" width="75"></button>
+    </form>
+    <main>
+</body>
+</html>

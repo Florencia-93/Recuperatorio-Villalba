@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html" ><h4>Página Principal</h4></a>
+        </nav>
+    </header>
+    <fieldset>
+    	<legend><h1>Estadística de ventas</h1></legend>
+    	 <form action="estadisticas.html" method="post">
+            <label for="periodo">Seleccione el Periodo:</label>
+            <select id="periodo" name="periodo" required>
+                <option value="semana">Esta Semana</option>
+                <option value="mes">Este Mes</option>
+                <option value="trimestre">Este Trimestre</option>
+                <option value="ano">Este Año</option>
+            </select>
+            <input type="submit" value="Generar reporte">
+        </form>
+    </fieldset>
+</body>
+</html>

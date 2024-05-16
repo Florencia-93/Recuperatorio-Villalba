@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Página Principal</title>
+</head>
+<style>
+	body{
+		text-align: center;
+	}
+</style>
+<body>
+<main>
+	<section>
+			<p><img src="imagenes/logo1.png" width="150px"> <h1>Bienvenidos</h1></p>
+			<hr>
+			<p>Ingresa tus datos</p>
+			<form action="cargar-producto.html" method="post">
+	        		<input type="text" name="usuario" id="nombre" size="30" maxlength="50" placeholder="Escriba su usuario" autocomplete="off"><br>
+	        		<br>
+	        		<input type="password" name="contraseña" id="contraseña" size="30" maxlength="50" placeholder="Escriba su contraseña" autocomplete="off"><br><br>
+	        		<button type="submit"> Acceder </button><br>
+	        		<input type="checkbox" name="recordatorio">Recordar nombre de usuario<br><br>
+	        		<a href="restablecer.html"> ¿Olvidó su nombre de usuario o contraseña? Ingrese aquí.</a>
+    			</form>
+	</section>
+	<section>
+			<fieldset>
+				<legend><h1>Registrarse como usuario</h1></legend>
+				<form action="nueva-cuenta.html">
+				   <p>Para acceder a esta página debe crear primero una cuenta</p><button type="submit">Crear cuenta nueva</button>
+				 </form>	
+			</fieldset>
+	</section>
+</main>
+</body>
+</html>
